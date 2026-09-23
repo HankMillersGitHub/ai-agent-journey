@@ -8,7 +8,7 @@ from pymupdf import planish_line
 
 # ! 分支结构
 # region
-# todo 单分支结构
+# * 单分支结构
 # 基于判断的结果决定最后执行的语句
 """
 age = 19
@@ -17,7 +17,7 @@ if age >= 18:
 if age < 18:
     print("未成年")
 """
-# todo 双分支
+# * 双分支
 """
 age = int(input("please input your age:"))
 if age >= 18:
@@ -25,7 +25,7 @@ if age >= 18:
 else:
     print("you are underage")
 """
-#  todo 多分支
+#  * 多分支
 """
 age = int(input("please input your age:"))
 if age < 18 :
@@ -38,7 +38,7 @@ else:
     print('you are old-age')
 """
 
-# todo 嵌套分支
+# * 嵌套分支
 """
 age = int(input("please input your age:"))
 medical_report = input("please submit your medical report(yes/no):")
@@ -61,7 +61,7 @@ else:
 
 # ! 循环结构
 # region
-# todo while
+# * while
 """
 i = 0
 while i < 10:
@@ -82,7 +82,7 @@ while guess != answer:
         print("fuck you ,you will be dead")
 """
 
-# todo for
+# * for
 """
 for i in range(10):
     print(i)
@@ -105,7 +105,7 @@ for c in ciphertext:
 print(f"the plaintext is {plaintext}")
 """
 
-# todo 对比for和while
+# * 对比for和while
 """
 while                               for
 条件驱动循环                      迭代驱动循环，遍历可迭代对象的每一项
@@ -114,7 +114,7 @@ while                               for
 需要手动维护循环条件，容易造成死循环
 """
 
-# todo 嵌套循环
+# * 嵌套循环
 """
 for i in range(30):
     print(f"📅today is the {i + 1} day.")
