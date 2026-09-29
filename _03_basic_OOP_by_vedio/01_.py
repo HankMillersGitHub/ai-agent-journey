@@ -11,4 +11,5 @@ class Person:
 # 创建类的实例对象p
 p = Person('hank',28,'man')
 # 调用实例的自定义方法
+
 p.say_hello()
