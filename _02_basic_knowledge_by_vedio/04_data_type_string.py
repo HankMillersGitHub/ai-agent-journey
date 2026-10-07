@@ -21,7 +21,6 @@
 # ? %s占位string %f占位float %i占位int %d占位decimal %s相对万能
 # info2 = "my name is %s,i am %d years old,i am a %s, my weight is %f" % (name,age,gender,weight)
 # print(info2)
-
 # todo 第三种写法 使用f-string (format-string) 格式化字符串
 # info3 = f"my name is {name},i am {age} years old,i am a {gender}, my weight is {weight}"
 # print(info3)
@@ -32,12 +31,13 @@
 # region
 # print('python中可以使用\'包裹一个字符串')
 # print('python中也可以使用\"包裹一个字符串')
-# print('注册会员需要如下信息:\n姓名\n年龄\n手机号')
+print('注册会员需要如下信息:\n姓名\n年龄\n手机号')
 # print('C:\\project\\workspace')
 # print('hello\b')  # 删除\b之前的一个字符
 # print('\r')  # 让光标回到本行开头，覆盖输出
 # print('\t')  # 一个水平制表符
 # endregion
+
 
 # ! 数据类型转换
 # region

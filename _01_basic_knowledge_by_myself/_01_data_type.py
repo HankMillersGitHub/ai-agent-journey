@@ -37,7 +37,6 @@
 # def func1(a,b,c=None):
 # None的常见用法： if variable is None:
 
-
 # from datetime import datetime
 # datetime python内置的datetime模块提供了datetime、date以及time类型
 # datetime组合了存储于date和time中的信息
