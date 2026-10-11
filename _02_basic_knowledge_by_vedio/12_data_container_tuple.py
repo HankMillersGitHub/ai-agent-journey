@@ -57,7 +57,20 @@ test(tuple1)
 # 以下是解包后调用
 test(*list1)
 test(*tuple1)"""
-
+def info(*args):
+    print(type(args),args)
+list1 = [1,2,3,4]
+tuple1 = (5,6,7,8)
+# 直接传参
+print('---------------直接传参list----------------')
+info(list1)
+print('---------------直接传参tuple----------------')
+info(tuple1)
+# 解包后传参
+print('---------------解包后传参list----------------')
+info(*list1)
+print('---------------解包后传参tuple----------------')
+info(*tuple1)
 # ! 元组的总结
 """
 1. 元组可以存放不同类型的元素

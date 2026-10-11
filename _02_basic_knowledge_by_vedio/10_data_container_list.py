@@ -38,7 +38,6 @@
 # 4. 使用索引查询指定位置的列表元素
 # print(list1[1])
 '''
-
 # * 列表的常用方法
 """
 list1 = [8,3,15,1,9,22,7,14,5,11]
@@ -53,7 +52,6 @@ print(list1)
 list1.sort()
 print(list1)
 """
-
 # * 常用的内置函数
 """
 list1 = [8,3,15,1,9,22,7,14,5,11]
@@ -89,7 +87,9 @@ while index < len(scores):
 '''for index,item in enumerate(scores,start=3):
     print(index,item,scores[index])'''
 # endregion
-
+list1 = [7,2,3,5,9,8,4,1,6]
+for index,item in enumerate(list1,start=0):
+    print(index,item)
 # * 列表总结
 '''
 1. 列表可以存放不同类型的元素

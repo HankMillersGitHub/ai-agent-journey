@@ -35,7 +35,6 @@ def order(num,/,dish):
     
 order(1,dish=3)
 """
-
 # * 参数默认值
 # 如果调用函数时没有传入实参则默认值参数使用默认值
 # 如果传入实参则使用实参
@@ -45,7 +44,6 @@ def order(num, dish,msg="welcome to dragon restaurant"):
     print(msg)
 order(3,"cola",'123')
 """
-
 # * 可变参数
 """
 # 以下两种可变参数可以一起使用，但是必须把可变位置参数写在前面
@@ -60,7 +58,10 @@ def test02(**kwargs):
     print(kwargs)
 test02(a=1,b=2,c=3,d=4,e=5)
 """
-
+# 可变位置参数
+def info(**kwargs):
+    print(kwargs)
+info(name='hank',age=10,gender='male')
 # * 一个特殊的字面量 None
 
 # * 函数的返回值
@@ -105,7 +106,19 @@ def func1(a,b):
     return a + b
 print(func1(1, 2))
 """
-
+def func1(a,b):
+    """计算两数之和
+    Args:
+        a(int): 加数
+        b(int): 加数
+    Returns:
+        int: 两数相加的结果
+    Examples:
+        >>> func1(1,2)
+        3
+    """
+    return a + b
+print(func1(1, 2))
 
 
 
