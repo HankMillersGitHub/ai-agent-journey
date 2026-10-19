@@ -34,7 +34,7 @@ print(set1)
 print(set1.pop())
 # 4. 集合.clear() 清空集合
 set1.clear()
-print(set1)
+
 
 # 改
 # 因为集合的内容是不可变的，所以集合没有专门用于修改内容的方法，但是可以使用remove + add来达到修改的效果
@@ -50,6 +50,7 @@ set2 = {1,2,3}
 print(1 in set2) # True
 print(3 not in set2) # False
 """
+set1 = {1,2,3}
 
 # * 集合的常用方法
 """set1 = {1,2,3}

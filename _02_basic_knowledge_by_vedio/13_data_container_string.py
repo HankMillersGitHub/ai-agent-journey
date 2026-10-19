@@ -16,6 +16,7 @@ print(str1.strip("h"))
 print(str1.strip("oleh")) # world!
 print(str1.strip()) # 不传参用于去掉空格"""
 
+
 # * 字符串的常用内置函数
 """str2 = "hello world!"
 # 1. len 返回字符串的个数
@@ -26,7 +27,8 @@ print(max(str2))
 print(min(str2))
 # 4. sorted 返回字符串按Unicode编码排序后的新列表
 print(sorted(str2))"""
-
+list1 = [0,1,2,3,4,5,6,7,8,9]
+print(list1[0:9:2]) # [0,2,4,6,8]
 # ! 序列的切片
 """list1 = [1,2,3,4,5,6,7,8,9,0]
 tuple1 = (1,2,3,4,5,6,7,8,9,0)
@@ -50,7 +52,7 @@ print(str1[::-1])"""
 
 # ! 序列的相加和相乘
 # 相加 只有两个同类型的序列才能相加
-list1 = [1,2,3]
+'''list1 = [1,2,3]
 list2 = [4,5,6]
 tuple1 = (1,2,3)
 tuple2 = (4,5,6)
@@ -62,7 +64,7 @@ print(str1 + str2)
 # 序列相乘 只能乘以整数 意味着列表重复n次
 print(list1 * 3)
 print(tuple1 * 3)
-print(str1 * 3)
+print(str1 * 3)'''
 
 
 
